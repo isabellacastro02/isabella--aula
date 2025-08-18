@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import TenisNike from './assets/tenis-nike.webp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
           <p className="desc">Um lindo tenis da nike</p>
           <p className="preco">R$699,99</p>
           <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+          <img src={TenisNike} alt="" className="img-prod"/>
         </div>
 
       </section>

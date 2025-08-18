@@ -13,7 +13,8 @@ header{
 }
 .produtos{
   width: 100%;
-  height: 50vh;
+  height: float;
+  float: left;
   background: #00F;
 }
 .card{
@@ -31,6 +32,28 @@ header{
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+  background: #F00;
+  margin-top: 1vh;
+}
+.desc{
+  width: 90%;
+  height: auto;
+  float: left;
+  background: yellow;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  margin-left: 5%;
+  margin-top: 1vh;
+}
+.preco{
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  background: purple;
+}
+.img-prod{
+width: 100%;
+height: auto;
 }
 .destaque{
   width: 100%;
