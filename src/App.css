@@ -16,6 +16,22 @@ header{
   height: 50vh;
   background: #00F;
 }
+.card{
+  width: 90%;
+  height: auto;
+  background: #fff;
+  float: left;
+  margin-left: 5%;
+}
+.card h2{
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
 .destaque{
   width: 100%;
   height: 50vh;
