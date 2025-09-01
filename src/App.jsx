@@ -18,7 +18,7 @@ function App() {
           <h2>Tênis Nike</h2>
           <p className="desc">Um lindo tenis da nike</p>
           <p className="preco">R$699,99</p>
-          <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+          <div className="avaliacao"> <span>★ ★ ☆ ☆ ☆</span> (25)</div>
           <div className="off">-15%</div>
         </div>
       </a>
@@ -29,7 +29,7 @@ function App() {
           <h2>Tênis Nike</h2>
           <p className="desc">Um lindo tenis da nike</p>
           <p className="preco">R$699,99</p>
-          <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+          <div className="avaliacao"> <span>★ ★ ★ ★ ☆ </span> (50)</div>
           <div className="off">-15%</div>
         </div>
       </a>
@@ -40,7 +40,7 @@ function App() {
           <h2>Tênis Nike</h2>
           <p className="desc">Um lindo tenis da nike</p>
           <p className="preco">R$699,99</p>
-          <div className="avaliacao"> ★ ★ ★ ★ ☆</div>
+          <div className="avaliacao"> <span>★ ★ ★ ★ ★</span> (128)</div>
           <div className="off">-15%</div>
         </div>
       </a>

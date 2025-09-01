@@ -46,6 +46,7 @@ header{
   text-align: center;
   /* background: #F00; */
   margin-top: 1vh;
+  color: #333;
 }
 .desc{
   width: 90%;
@@ -56,6 +57,7 @@ header{
   font-size: 1em;
   margin-left: 5%;
   margin-top: 1vh;
+  color: #333;
 }
 .preco{
   width: 40%;
@@ -66,6 +68,8 @@ header{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
+  font-size: 1.2em;
+  color: #333;
 }
 .avaliacao{
 width: 40%;
@@ -74,7 +78,12 @@ margin-right: 5%;
 /* background: lightgreen; */
 margin-top: 2vh;
 text-align: center;
+color: #333;
 } 
+.avaliacao span{
+  color: #d4af37;
+  font-size: 1.1em;
+}
 .off{
   padding: 1%;
   background: #000;
